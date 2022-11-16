@@ -30,7 +30,7 @@ def splitTerms(myFun):
     else: myFunSplit.append(myFun)
 
     #remove empty terms created by a negative first term
-    #myFunSplit.remove("")
+    myFunSplit.remove("")
     return myFunSplit
 
 print(splitTerms(input("Input a function:\n")))
